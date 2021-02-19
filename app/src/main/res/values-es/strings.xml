@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Memory</string>
+    <string name="img_logoDescription">Este es el logo de la aplicacion</string>
+    <string name="img_cardDescription">Esta es la imágen de la carta</string>
+    <string name="txt_Cargando">Cargando...</string>
+    <string name="btn_Jugar">JUGAR</string>
+    <string name="btn_NivelF">NIVEL: Fácil</string>
+    <string name="btn_NivelN">NIVEL: Normal</string>
+    <string name="btn_NivelD">NIVEL: Difícil</string>
+    <string name="text_Time">!!Suerte¡¡</string>
+    <string name="txt_Puntuaciones">Mejores marcas</string>
+    <string name="btn_Creditos">Créditos</string>
+    <string name="txt_Desarrollador">Desarrollador: Diego Sáez</string>
+    <string name="txt_Centro">Centro: Cuatrovientos C.I.</string>
+    <string name="txt_Curso">Módulo: 2º Desarrollo de Aplicaciones Multiplataforma</string>
+    <string name="text_winTitle">!! Felicidades ¡¡</string>
+    <string name="text_winSaveRecord">Guardar</string>
+
+</resources>

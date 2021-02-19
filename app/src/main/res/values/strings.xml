@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Memory</string>
+    <string name="img_logoDescription">App image application</string>
+    <string name="img_cardDescription">Image card</string>
+    <string name="txt_Cargando">Loading...</string>
+    <string name="btn_Jugar">PLAY</string>
+    <string name="btn_NivelF">LEVEL: Easy</string>
+    <string name="btn_NivelN">LEVEL: Normal</string>
+    <string name="btn_NivelD">LEVEL: Hard</string>
+    <string name="text_Time">!!LUCK¡¡</string>
+    <string name="txt_Puntuaciones">HIGHER SCORES</string>
+    <string name="btn_Creditos">Credits</string>
+    <string name="txt_Desarrollador">Developer: Diego Sáez</string>
+    <string name="txt_Centro">Center: Cuatrovientos C.I.</string>
+    <string name="txt_Curso">Module: 2º Multiplatform Applications Developement</string>
+    <string name="text_winTitle">!! Congratulations ¡¡</string>
+    <string name="text_winSaveRecord">Save</string>
+
+</resources>

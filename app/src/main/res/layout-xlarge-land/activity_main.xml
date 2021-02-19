@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FB5D13"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="1000dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="607dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/img_logoDescription"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/screen_background_dark_transparent"
+            android:backgroundTint="@color/myPurple"
+            android:text="@string/btn_Jugar"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="102dp"
+            tools:layout_editor_absoluteY="20dp" />
+
+        <Button
+            android:id="@+id/btnLevel"
+            android:layout_width="395dp"
+            android:layout_height="79dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/screen_background_dark_transparent"
+            android:backgroundTint="@color/myPurple"
+            android:text="@string/btn_NivelF"
+            android:textSize="50sp"
+            tools:layout_editor_absoluteX="137dp"
+            tools:layout_editor_absoluteY="30dp" />
+
+        <Button
+            android:id="@+id/btnCredits"
+            android:layout_width="273dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@android:drawable/screen_background_dark_transparent"
+            android:backgroundTint="@color/myPurple"
+            android:text="@string/btn_Creditos"
+            android:textSize="40sp"
+            tools:layout_editor_absoluteX="142dp"
+            tools:layout_editor_absoluteY="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/txtPuntuaciones"
+            android:layout_width="588dp"
+            android:layout_height="68dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_border"
+            android:gravity="center"
+            android:text="@string/txt_Puntuaciones"
+            android:textColor="#FFFFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="10dp" />
+
+        <fragment
+            android:id="@+id/scoreFragment"
+            android:name="com.diego_saez.memory.fragments.ScoreFragment"
+            android:layout_width="584dp"
+            android:layout_height="460dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="2dp"
+            android:background="@color/white"
+            android:backgroundTint="@color/myPurple"
+            tools:layout="@layout/fragment_score"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="10dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.CardsDFragment">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:id="@+id/row30"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/card300"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="@string/img_cardDescription"
+                android:cropToPadding="false"
+                android:foregroundGravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hueso" />
+
+            <ImageButton
+                android:id="@+id/card301"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="@string/img_cardDescription"
+                android:cropToPadding="false"
+                android:foregroundGravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hueso" />
+
+            <ImageButton
+                android:id="@+id/card302"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="@string/img_cardDescription"
+                android:cropToPadding="false"
+                android:foregroundGravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hueso" />
+
+            <ImageButton
+                android:id="@+id/card303"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="@string/img_cardDescription"
+                android:cropToPadding="false"
+                android:foregroundGravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hueso" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row31"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/card310"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="@string/img_cardDescription"
+                android:cropToPadding="false"
+                android:foregroundGravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hueso" />
+
+            <ImageButton
+                android:id="@+id/card311"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="@string/img_cardDescription"
+                android:cropToPadding="false"
+                android:foregroundGravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hueso" />
+
+            <ImageButton
+                android:id="@+id/card312"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="@string/img_cardDescription"
+                android:cropToPadding="false"
+                android:foregroundGravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hueso" />
+
+            <ImageButton
+                android:id="@+id/card313"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="@string/img_cardDescription"
+                android:cropToPadding="false"
+                android:foregroundGravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hueso" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row32"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/card320"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="@string/img_cardDescription"
+                android:cropToPadding="false"
+                android:foregroundGravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hueso" />
+
+            <ImageButton
+                android:id="@+id/card321"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="@string/img_cardDescription"
+                android:cropToPadding="false"
+                android:foregroundGravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hueso" />
+
+            <ImageButton
+                android:id="@+id/card322"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="@string/img_cardDescription"
+                android:cropToPadding="false"
+                android:foregroundGravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hueso" />
+
+            <ImageButton
+                android:id="@+id/card323"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="@string/img_cardDescription"
+                android:cropToPadding="false"
+                android:foregroundGravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hueso" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row33"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/card330"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="@string/img_cardDescription"
+                android:cropToPadding="false"
+                android:foregroundGravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hueso" />
+
+            <ImageButton
+                android:id="@+id/card331"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="@string/img_cardDescription"
+                android:cropToPadding="false"
+                android:foregroundGravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hueso" />
+
+            <ImageButton
+                android:id="@+id/card332"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="@string/img_cardDescription"
+                android:cropToPadding="false"
+                android:foregroundGravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hueso" />
+
+            <ImageButton
+                android:id="@+id/card333"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="@string/img_cardDescription"
+                android:cropToPadding="false"
+                android:foregroundGravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hueso" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row34"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/card340"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="@string/img_cardDescription"
+                android:cropToPadding="false"
+                android:foregroundGravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hueso" />
+
+            <ImageButton
+                android:id="@+id/card341"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="@string/img_cardDescription"
+                android:cropToPadding="false"
+                android:foregroundGravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hueso" />
+
+            <ImageButton
+                android:id="@+id/card342"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="@string/img_cardDescription"
+                android:cropToPadding="false"
+                android:foregroundGravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hueso" />
+
+            <ImageButton
+                android:id="@+id/card343"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="@string/img_cardDescription"
+                android:cropToPadding="false"
+                android:foregroundGravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hueso" />
+
+        </TableRow>
+
+    </TableLayout>
+</FrameLayout>
